@@ -27,7 +27,7 @@ function initVideo() {
             wrap.addClass('hide')
         });
         var id = $(this).attr('data-vid');
-        player.src('video/' + id + '_1.mp4');
+        player.src('./video/' + id + '_1.mp4');
         player.ready(function () {
             player.requestFullscreen();
             player.play();
